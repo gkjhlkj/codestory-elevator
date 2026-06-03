@@ -1,7 +1,9 @@
+// +build !heroku
+
 package main
 
 import (
-	_ "./elevator"
+	_ "bitbucket.org/tbruyelle/codestory/elevator"
 	"fmt"
 	"net/http"
 	"os"
